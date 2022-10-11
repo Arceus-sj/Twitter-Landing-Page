@@ -285,6 +285,8 @@ span:hover {
 
 /*Media Queries (FOR MOBILE)*/
 
+
+
 @media (max-width: 480px) {
   .container {
     flex-direction: column;
@@ -367,9 +369,23 @@ span:hover {
   .account {
     padding-bottom: 20px;
   }
+  .container2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* border: 1px solid white; */
+  }
+
+  a{
+    margin: 2px auto;
+    /* border: 1px solid white; */
+  }
 }
 
-@media screen and (max-width: 1140px) {
+
+
+@media screen and (max-width: 1246px) {
+  
   .Phone {
     align-items: center;
   }
@@ -377,6 +393,49 @@ span:hover {
   .Phone p, .email, .account {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  
+  .container2 {
+    padding-top: 50px;
+  }
+
+  .box1 img {
+    height: 30px;
+    width: 35px;
+    margin: 25px auto 0 auto;
+  }
+  
+  .box1 h1 {
+    font-size: 3em;
+    font-weight: 900;
+    text-align: center;
+    margin: 20px auto;
+  }
+  
+  .box1 h2 {
+    margin: 20px auto;
+    font-size: 1.6em;
+    font-weight: 900;
+  }
+
+  .btn1 {
+    margin: 5px auto 0 auto;
+  }
+ 
+  .btn2 {
+    margin: 5px auto 0 auto;
+  }
+  
+  .divider {
+    margin: 10px auto 0 auto; 
+  }
+
+  #Cookie {
+    margin: 0 auto 0 auto;
+  }
+  .account {
+    margin: 30px auto;
   }
 }
 
